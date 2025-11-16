@@ -1,0 +1,15 @@
+#section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 120px;
+    background-color: black;
+    border-radius: 8px;
+}
+
+#section1 p {
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+}
