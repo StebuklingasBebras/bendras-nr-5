@@ -1,0 +1,19 @@
+body {
+    height: 1440px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 400px;
+    height: 200px;
+    background-color: #102E4A;
+    color: #FFF7E6;
+    font-size: 28px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
