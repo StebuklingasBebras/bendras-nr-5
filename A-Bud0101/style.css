@@ -1,0 +1,17 @@
+.card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+width: 400px;
+height: 200px;
+background-color: aquamarine;
+padding: 20px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
