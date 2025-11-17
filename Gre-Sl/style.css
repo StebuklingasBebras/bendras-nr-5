@@ -1,11 +1,11 @@
-body{
+body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-.info{
+.info {
     height: 250px;
     width: 400px;
     background-color: #cd0044;
