@@ -1,0 +1,24 @@
+*{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: darkblue;
+    font-weight: 500;
+}
+.dollaSign{
+    display: flex;
+    border: 3px solid goldenrod;
+    width: 300px;
+    min-width: 300px;
+    height: 150px;
+    min-height: 150px;
+    padding: 10px;
+    margin: 50px 50px 50px 50px;
+    background-color: hotpink;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+}
