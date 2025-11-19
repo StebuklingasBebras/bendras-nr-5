@@ -6,6 +6,7 @@
     <title>GR-5</title>
     <?php
     $directories = glob('*', GLOB_ONLYDIR);
+    shuffle($directories);
     foreach ($directories as $dir) {
         if (file_exists($dir . '/style.css')) {
             echo '<link rel="stylesheet" href="' . htmlspecialchars($dir) . '/style.css">' . "\n    ";
