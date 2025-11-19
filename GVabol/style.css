@@ -1,0 +1,18 @@
+body{
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: maroon;
+    color: white;
+    font-size: 32px;
+    width: 400px;
+    height: 200px;
+}
