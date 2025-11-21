@@ -1,6 +1,5 @@
-body {background-color: blanchedalmond;}
 
-.staciakampis {
+.aurelijosStaciakampis {
     width: 400px;
     height: 200px;
     background-color: #8b008b80;
@@ -8,7 +7,7 @@ body {background-color: blanchedalmond;}
     margin: 200px 500px 200px 500px;
 }
 
-.gitVardas {
+.aurelijosAprasymas {
     font-size: 24px;
     color: darkgreen;
     text-align: center;

@@ -1,11 +1,5 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
 
-section {
+.rol-ka {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,5 +12,4 @@ section {
     background-color: bisque;
     text-align: center;
     font-weight: 900;
-
 }
