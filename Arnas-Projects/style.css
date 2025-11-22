@@ -1,21 +1,17 @@
-section.body-replicate {
+
+
+section.arnas-projects-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-}
-
-section.body-replicate section.arnas-projects-section {
+    text-align: center;
     color: white;
     border: 5px solid #000000;
     background-color: #00000070;
-    width: 1000px;
-    height: 500px;
-    display: flex;
-    font-size: 36px;
+    width: 450px;
+    height: 250px;
+    font-size: 24px;
     font-family: monospace;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    /* min-height: 100vh; */
 }
 
