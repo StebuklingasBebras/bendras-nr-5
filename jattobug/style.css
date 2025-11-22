@@ -1,0 +1,10 @@
+.bug {
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(109, 173, 109);
+}
