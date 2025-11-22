@@ -1,11 +1,11 @@
-body {
+section.body-replicate {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
 
-section {
+section.body-replicate section.arnas-projects-section {
     color: white;
     border: 5px solid #000000;
     background-color: #00000070;
@@ -13,6 +13,7 @@ section {
     height: 500px;
     display: flex;
     font-size: 36px;
+    font-family: monospace;
     text-align: center;
     align-items: center;
     justify-content: center;
