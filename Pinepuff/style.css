@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,9 +9,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-section {
+.js {
     height: 300px;
     width: 300px;
     background-color: rgb(87, 194, 176);
@@ -22,4 +22,9 @@ section {
     justify-content: center;
     align-items: center;
     gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
