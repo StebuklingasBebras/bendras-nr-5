@@ -1,15 +1,13 @@
-#section1 {
+#l-cnas {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 240px;
-    height: 120px;
+    width: 400px;
+    height: 250px;
     background-color: black;
-    border-radius: 8px;
 }
 
-#section1 p {
+#l-cnas p {
     text-align: center;
     color: white;
-    border-radius: 8px;
 }

@@ -1,13 +1,19 @@
-body {
+
+.rectangleMKod {
     display: flex;
-} 
-.rectangle {
-    width: 200px;
-    height: 100px;
-    border: 2px solid crimson;
-    background-color: crimson;
+    width: 600px;
+    height: 300px;
+    border: 2px solid skyblue;
+    background-color: skyblue;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.informationMKod {
+    color: rgb(203, 4, 41);
+    font-size: 25px;
+    
+  
+}
+

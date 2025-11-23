@@ -1,13 +1,10 @@
-*{
+.dollaSign {
     display: flex;
-    margin: 0;
-    padding: 0;
+    position: relative;
+    justify-content: center;
+    align-items: center;
 }
-body{
-    color: darkblue;
-    font-weight: 500;
-}
-.dollaSign{
+.no22Broke{
     display: flex;
     border: 3px solid goldenrod;
     width: 300px;
@@ -15,7 +12,6 @@ body{
     height: 150px;
     min-height: 150px;
     padding: 10px;
-    margin: 50px 50px 50px 50px;
     background-color: hotpink;
     justify-content: center;
     align-items: center;
