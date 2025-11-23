@@ -1,18 +1,10 @@
-* {
-    background-color: rgb(72, 54, 88);
-}
-
-
-div {
+.bug {
+    height: 100px;
+    width: 200px;
+    margin: auto;
     display: flex;
     justify-content: center;
     text-align: center;
     align-items: center;
-    height: 100px;
-    width: 200px;
-    background-color: rgb(66, 150, 66);
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    background-color: rgb(109, 173, 109);
 }
