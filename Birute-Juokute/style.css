@@ -1,11 +1,11 @@
-section {
+.juokute-card {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh
+    height: 100vh;
 }
 
-div {
+.juokute-card div {
     display: block;
     text-align: center;
     align-content: center;
