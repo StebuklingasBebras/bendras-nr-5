@@ -1,19 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
-    <title>GitHub pamokeles</title>
+    <title>Mano GitHub Lentelė</title>
 </head>
 <body>
-    <section class="appear">
-        <p>Edgariuko</p>
-        <p>Pirmi bandymai su GitHub</p>
-        <a href="mano.txt" download class="github-btn" id="downloadBtn" >Parsisiųsti mano.txt</a>
-    </section>
+
+<div class="student-card-edgargreenchuk">
+    <h2 class="student-name">EdgarGreenchuk</h2>
     
+    <table class="info-table">
+        <tr>
+            <td class="label">Spalva:</td>
+            <td class="value">Žalia samanos</td>
+        </tr>
+        <tr>
+            <td class="label">Lentelės matmenys:</td>
+            <td class="value">320px × 220px</td>
+        </tr>
+        <tr>
+            <td class="label">GitHub:</td>
+            <td class="value">
+                <a href="https://github.com/EdgarGreenchuk" target="_blank" class="github-btn">
+    <svg width="20" height="20" viewBox="0 0 16 16" fill="white" style="vertical-align: middle; margin-right: 5px;">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+    </svg>
+    GitHub
+</a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<style>
+
+.student-card-edgargreenchuk {
+    width: 320px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #2d5016;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #7a9b57 0%, #5a7a3c 100%);
+    box-shadow: 0 6px 12px rgba(45, 80, 22, 0.3);
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.student-card-edgargreenchuk .student-name {
+    margin: 0 0 18px 0;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 3px solid #a8d08d;
+    padding-bottom: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.student-card-edgargreenchuk .info-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+}
+
+.student-card-edgargreenchuk .info-table tr {
+    border-bottom: 1px solid #c5d9b5;
+}
+
+.student-card-edgargreenchuk .info-table tr:last-child {
+    border-bottom: none;
+}
+
+.student-card-edgargreenchuk .info-table td {
+    padding: 12px 10px;
+}
+
+.student-card-edgargreenchuk .label {
+    font-weight: bold;
+    color: #2d5016;
+    width: 45%;
+}
+
+.student-card-edgargreenchuk .value {
+    color: #3a5a23;
+}
+
+.student-card-edgargreenchuk .github-btn {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #2d5016;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s;
+    box-shadow: 0 3px 6px rgba(45, 80, 22, 0.4);
+}
+
+.student-card-edgargreenchuk .github-btn:hover {
+    background-color: #5a7a3c;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(45, 80, 22, 0.5);
+}
+</style>
+
 </body>
 </html>
