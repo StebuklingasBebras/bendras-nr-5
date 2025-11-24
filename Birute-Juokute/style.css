@@ -1,0 +1,15 @@
+.juokute-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.juokute-card div {
+    display: block;
+    text-align: center;
+    align-content: center;
+    background-color: plum;
+    width: 300px;
+    height: 200px;
+}
