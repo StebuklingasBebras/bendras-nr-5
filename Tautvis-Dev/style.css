@@ -1,8 +1,6 @@
-* {
-    margin: 0;
-}
 
-.section {
+ 
+.unikaliTautvis {
     display: flex;
     position: relative;
     width: 100%;
@@ -11,14 +9,14 @@
     justify-content: center;
 }
 
-.staciakampis {
+.unikaliTautvis-d {
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     width: 200px;
-    height: 120px;
+    height: 140px;
     border: 2px solid royalblue;
     background-color: royalblue;
 }
