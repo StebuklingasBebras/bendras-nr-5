@@ -1,4 +1,4 @@
-.boxSection {
+.boxSectionG {
     margin: 0;
     height: 100vh;              
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 
-.blokas {
+.blokasG {
     width: 300px;    
     height: 200px;     
     background: #556B2F;
