@@ -1,11 +1,11 @@
-section {
+.section_miumla {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-div {
+.section_miumla div {
     height: 300px;
     width: 400px;
     background-color: violet;
@@ -17,4 +17,5 @@ div {
     color: darkmagenta;
     font-weight: 700;
     letter-spacing: 3px;
+    
 }

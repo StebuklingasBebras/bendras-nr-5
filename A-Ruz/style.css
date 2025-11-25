@@ -1,0 +1,19 @@
+section.a-ruz-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section.a-ruz-section .section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: #102E4A;
+    color: #FFF7E6;
+    font-size: 28px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
