@@ -4,15 +4,13 @@
     align-items: center;
 }
 
-.coffee_terminal-Main {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.coffee_terminal-Section {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 
-    .coffee_terminal-Section {
+
+    .coffee_terminal-Main {
         flex-direction: column;
         color: white;
         font-size: 30px;
