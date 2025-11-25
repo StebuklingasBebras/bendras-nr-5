@@ -1,15 +1,10 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: white;
-    padding-top: 800px;
-}
 
-.box {
+
+.si-glory {
     width: 400px;
     height: 200px;
     background-color: #4fc3f7;
-    margin: 40px auto;     /* centras horizontaliai + tarpas tarp mokinių */
+    margin: 40px auto;     
     display: flex;
     align-items: center;
     justify-content: center;
