@@ -7,6 +7,7 @@
 .coffee_terminal-Section {
     height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 
 
     .coffee_terminal-Main {
