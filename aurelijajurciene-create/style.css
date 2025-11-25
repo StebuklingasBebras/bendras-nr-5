@@ -1,0 +1,15 @@
+
+.aurelijosStaciakampis {
+    width: 400px;
+    height: 200px;
+    background-color: #8b008b80;
+    border: 2px solid black;
+    margin: 200px 500px 200px 500px;
+}
+
+.aurelijosAprasymas {
+    font-size: 24px;
+    color: darkgreen;
+    text-align: center;
+    margin-top: 80px;
+}

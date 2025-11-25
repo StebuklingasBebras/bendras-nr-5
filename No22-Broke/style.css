@@ -1,0 +1,20 @@
+.dollaSign {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.no22Broke{
+    display: flex;
+    border: 3px solid goldenrod;
+    width: 300px;
+    min-width: 300px;
+    height: 150px;
+    min-height: 150px;
+    padding: 10px;
+    background-color: hotpink;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 7px;
+}

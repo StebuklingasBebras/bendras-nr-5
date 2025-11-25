@@ -1,0 +1,17 @@
+body.v_lir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body.v_lir section.v_lir {
+    background-color: darkcyan;
+    width: 500px;
+    height: 300px;
+    font-size: 36px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

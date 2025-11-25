@@ -1,0 +1,14 @@
+.a-Bud0101 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    border-color: black;
+    border: 1px solid;
+    width: 400px;
+    height: 200px;
+    background-color: aquamarine;
+    text-align: center;
+    font-weight: 400;
+}
