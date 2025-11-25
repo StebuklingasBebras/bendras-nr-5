@@ -1,12 +1,5 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-
-section {
+section.RSR-e {
+    position: relative;
     display: flex;
     height: 200px;
     width: 400px;
@@ -15,4 +8,5 @@ section {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+    margin: 0px auto;
 }
