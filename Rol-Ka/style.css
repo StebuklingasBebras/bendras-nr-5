@@ -1,6 +1,13 @@
-
-.rol-ka {
+section.rol-ka {
+    box-sizing: border-box;
     display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+section.rol-ka div.rol-ka {
+    display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
     flex-direction: column;

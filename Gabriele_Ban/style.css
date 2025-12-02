@@ -1,16 +1,11 @@
-body {
+section.ban {
+    position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 95vh;
-}
-
-section {
     height: 400px;
     width: 800px;
+    margin: 0px auto;
     background-color: #e082e0;
     border: 5px solid #3f073f;
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
