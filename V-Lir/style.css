@@ -1,17 +1,21 @@
-body.v_lir {
+section.v-lir {
+ box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
-body.v_lir section.v_lir {
-    background-color: darkcyan;
-    width: 500px;
-    height: 300px;
-    font-size: 36px;
-    display:flex;
+ div.v-lir-div {
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color: darkcyan;
+    width: 400px;
+    height: 200px;
+    font-size:36px;
+    margin: auto;
+    flex-direction: column;
 }
+
