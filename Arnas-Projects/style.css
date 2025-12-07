@@ -1,0 +1,27 @@
+
+
+section.arnas-projects-section {
+    box-sizing: border-box;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+section.arnas-projects-section div.arnas-projects-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border: 5px solid #000000;
+    background-color: teal;
+    width: 100%;
+    max-width: 450px;
+    height: 100vh;
+    max-height: 300px;
+    font-size: 24px;
+    font-family: monospace;
+}
+
+

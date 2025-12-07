@@ -1,0 +1,15 @@
+
+
+.si-glory {
+    width: 400px;
+    height: 200px;
+    background-color: #4fc3f7;
+    margin: 40px auto;     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    
+}

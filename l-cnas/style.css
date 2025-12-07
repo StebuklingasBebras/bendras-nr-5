@@ -1,0 +1,13 @@
+#l-cnas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    background-color: black;
+}
+
+#l-cnas p {
+    text-align: center;
+    color: white;
+}

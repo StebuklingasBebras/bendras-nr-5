@@ -1,0 +1,21 @@
+section.v-lir {
+ box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ div.v-lir-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: darkcyan;
+    width: 400px;
+    height: 200px;
+    font-size:36px;
+    margin: auto;
+    flex-direction: column;
+}
+

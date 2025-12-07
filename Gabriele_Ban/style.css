@@ -1,0 +1,16 @@
+section.ban {
+    position: relative;
+    display: flex;
+    height: 400px;
+    width: 800px;
+    margin: 0px auto;
+    background-color: #e082e0;
+    border: 5px solid #3f073f;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+    color: #7fa1e0;
+    font-weight: 600;
+    letter-spacing: 5px;
+}

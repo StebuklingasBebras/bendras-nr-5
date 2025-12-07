@@ -1,0 +1,62 @@
+.coffee_terminal-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coffee_terminal-Section {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+
+    .coffee_terminal-Main {
+        flex-direction: column;
+        color: white;
+        font-size: 30px;
+        width: 500px;
+        height: 300px;
+        background-color: #017371;
+        padding: 10px;
+
+        .coffee_terminal-Vardas {
+            width: 100%;
+            padding: 10px;
+            background-color: #00000038;
+            font-size: 50px;
+        }
+
+        .coffee_terminal-Spalva {
+            width: 80%;
+            justify-content: flex-start;
+        }
+
+        .coffee_terminal-parametrai {
+            width: 80%;
+            justify-content: space-between;
+
+
+            .coffee_terminal-Ilgis {
+                p:nth-child(1) {
+                    font-weight: bold;
+                }
+
+                p:nth-child(2) {
+                    font-style: italic;
+                }
+            }
+
+            .coffee_terminal-Aukstis {
+                p:nth-child(1) {
+                    font-weight: bold;
+                }
+
+                p:nth-child(2) {
+                    font-style: italic;
+                }
+            }
+
+        }
+    }
+
+}
