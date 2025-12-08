@@ -1,4 +1,13 @@
 #l-cnas {
+    min-height: 50vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#l-cnas div {
     display: flex;
     justify-content: center;
     align-items: center;
